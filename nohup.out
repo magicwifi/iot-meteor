@@ -1,0 +1,38 @@
+[[[[[ ~/iotmeteor ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+[34mI20160328-19:49:38.621(8)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20160328-19:49:38.622(8)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20160328-19:49:38.623(8)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20160328-19:49:38.623(8)? [39m** will still be sent to all clients.
+[34mI20160328-19:49:38.623(8)? [39m**
+[34mI20160328-19:49:38.623(8)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20160328-19:49:38.624(8)? [39m**
+[34mI20160328-19:49:38.624(8)? [39m**   $ meteor remove autopublish
+[34mI20160328-19:49:38.624(8)? [39m**
+[34mI20160328-19:49:38.624(8)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20160328-19:49:38.625(8)? [39m** for each collection that you want clients to see.
+[34mI20160328-19:49:38.625(8)? [39m
+[[[[[ ~/iotmeteor ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+[34mI20160328-20:31:36.002(8)? [39m** You've set up some data subscriptions with Meteor.publish(), but
+[34mI20160328-20:31:36.004(8)? [39m** you still have autopublish turned on. Because autopublish is still
+[34mI20160328-20:31:36.004(8)? [39m** on, your Meteor.publish() calls won't have much effect. All data
+[34mI20160328-20:31:36.004(8)? [39m** will still be sent to all clients.
+[34mI20160328-20:31:36.004(8)? [39m**
+[34mI20160328-20:31:36.005(8)? [39m** Turn off autopublish by removing the autopublish package:
+[34mI20160328-20:31:36.005(8)? [39m**
+[34mI20160328-20:31:36.005(8)? [39m**   $ meteor remove autopublish
+[34mI20160328-20:31:36.005(8)? [39m**
+[34mI20160328-20:31:36.005(8)? [39m** .. and make sure you have Meteor.publish() and Meteor.subscribe() calls
+[34mI20160328-20:31:36.006(8)? [39m** for each collection that you want clients to see.
+[34mI20160328-20:31:36.006(8)? [39m
