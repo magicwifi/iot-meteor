@@ -56,7 +56,8 @@ SignUpForm = Radium(React.createClass({
     Accounts.createUser({
       username: userName,
       email: email,
-      password: password
+      password: password,
+      topic: "random"
     }, (error) => {
       if (error) {
         if (error.reason.indexOf("Username") !== -1)

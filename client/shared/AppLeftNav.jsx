@@ -30,6 +30,7 @@ AppLeftNav = React.createClass({
     return this.context.router.isActive('/all') ? '/all' :
       this.context.router.isActive('/signup') ? '/signup' :
       this.context.router.isActive('/login') ? '/login' :
+      this.context.router.isActive('/dashboard') ? '/dashboard' :
       this.context.router.isActive('/about') ? '/about' : '';
   },
 
@@ -102,6 +103,11 @@ AppLeftNav = React.createClass({
             style={styles.list}
             value='/all'
             primaryText='成功案例' />
+          <ListItem
+            style={styles.list}
+            value='/dashboard'
+            primaryText='控制面板' />
+          { currentUser ? '' : <ListItem style={styles.list} value='/signup' primaryText='注册' />}
           <ListItem
             style={styles.list}
             value='/about'

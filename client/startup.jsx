@@ -9,6 +9,7 @@ const Routes = (
     <Route path="login" component={AuthLogIn} />
     <Route path="signup" component={AuthSignUp} />
     <Route path="about" component={About}/>
+    <Route path="dashboard" component={Dashboard}/>
     <Route path="all" component={AllVideos}/>
     <Route path="/v/:id" component={Post} />
     <Route path="home" component={Home}/>

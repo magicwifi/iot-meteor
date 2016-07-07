@@ -6,7 +6,7 @@ Courses = React.createClass({
           "id": "1",
           "cover": "/images/iot/yingjian.jpg",
           "title": "智能硬件自助开发",
-          "link": "#"
+          "link": "/dashboard"
         },
         {
           "id": "2",
@@ -18,7 +18,7 @@ Courses = React.createClass({
           "id": "3",
           "cover": "/images/iot/industry.jpg",
           "title": "工业物联网&节能控制",
-          "link": "#"
+          "link": "http://42.123.86.187:3030/sampletv"
         },
         {
           "id": "4",
@@ -30,7 +30,7 @@ Courses = React.createClass({
           "id": "5",
           "cover": "/images/iot/wumai.jpg",
           "title": "环境监测&基础设施监控",
-          "link": "#"
+          "link": "http://110.76.185.36/devices/explore?pid=5771cd6f421aa97e85000008"
         },
         {
           "id": "6",
